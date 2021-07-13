@@ -41,8 +41,11 @@ body{
       margin-top: 20px;   
 }
 .buttons:hover {
-    transform: scale(1.06);
-    transition: transform 1s ease-in;}
+    transform: scale(1.1);
+    transform-origin: left;
+    transition: transform 1s;
+
+}
 
 /*------------------- 
       Main Topics
@@ -120,4 +123,23 @@ h3:hover{color:rgba(45, 37, 160, 1) ;}
      font-weight: 700;
      line-height: 40px;
  }
+  
+ /*----------------------------------
+          Footer Style  
+  -----------------------------------*/
+  footer{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+footer img{
+    width: 483.87px;
+height: 110px;
+}
+h6{font-size: 18px;
+color:rgba(0, 0, 0, 1);}
+.fab{font-size: 32px;
+    margin-left: 14px;
+color: grey;
+padding-top: 20px;
+}
 
