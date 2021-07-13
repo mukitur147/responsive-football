@@ -3,6 +3,43 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: rgba(255, 255, 255, 1);
 }
+/* Nav Styles  */
+
+nav{
+    background-color: rgba(45, 37, 160, 1);
+}
+.nav-bars{
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 156px;
+    padding-top: 42px;
+    padding-right: 88px;
+    padding-bottom: 67px;
+}
+.bar-names a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    
+    font-weight: 500;
+    padding: 5px 20px;
+}
+.bar-login a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    background-color:rgba(224, 44, 109, 1) ;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+.bar-login .fas{margin-right: 5px;}
+.bar-names a:hover{ 
+    background-color:rgba(224, 44, 109, 1) ;
+    border-radius: 5px;
+  
+}
+.bar-login:hover{transform: scale(1.1);
+                 transition: transform 1s;
+}
+
 /*---------------------
    Upper Header styles 
  ----------------------*/
@@ -12,11 +49,13 @@ body{
  }
  .header-div{
      width: 50%;
-     margin-top: 3%;
+     margin-top: 30px;
+     margin-bottom: 86px;
  }
  .header-div img{
-     width: 90%;
-     margin-bottom: 86px;
+    width: 600px;
+    
+    
  }
  h1{
      color: rgba(255, 255, 255, 1);
@@ -37,7 +76,7 @@ body{
      font-weight: 500;
      
  }
- .fas{margin-left: 5px;
+ .buttons .fas{margin-left: 5px;
       margin-top: 20px;   
 }
 .buttons:hover {
