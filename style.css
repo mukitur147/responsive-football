@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
 }
 /*---------------------
    Upper Header styles 
@@ -15,22 +16,26 @@ body{
  }
  .header-div img{
      width: 90%;
+     margin-bottom: 86px;
  }
  h1{
-     color: white;
+     color: rgba(255, 255, 255, 1);
      font-size: 64px;
      font-weight: 700;
-     margin-left: 20%;
      line-height: 40px;
+ }
+ .title{
+    margin-left:156px ;
+
  }
  .button{
      text-decoration: none;
-     color: white;
+     color: rgba(255, 255, 255, 1);
      background-color: rgba(224, 44, 109, 1);
-     padding: 10px 30px;
+     padding: 10px 24px 10px 24px;
      font-size: 16px;
      font-weight: 500;
-     margin-left:20% ;
+     
  }
  .fas{margin-left: 5px;
       margin-top: 20px;   
@@ -53,40 +58,66 @@ body{
     grid-template-columns: repeat(3,0.1fr);
     grid-row-gap: 30px;
     grid-column-gap: 27px;
-    padding-top: 7%;
-    padding-bottom: 10%;
+    padding-top: 70px;
+    padding-bottom: 165px;
     padding-right: 10px;
     padding-left: 10px;
     overflow: hidden;
 }
 .player{
+    background-color: rgba(255, 255, 255, 1);
     height:474px ;
     width: 330px;
     padding: 15px;
-    box-shadow: 2px 2px 5px rgba(108, 108, 108, 1);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.052);
 }
 .player-image{ display: flex;
     justify-content: center;
+  
 }
 .player-image img{
-   width: 300px;
-   height: 256px;
+   width: 330px;
    
 }
 .player-info{
-    padding-left: 15px;
+    padding-left: 5px;
 }
-h2{
+h3{
     font-size: 28px;
     font-weight: 700 ;    
 }
-.player-info p{
+ p{
     font-size: 16px;
+    font-weight: 400;
     color: rgba(108, 108, 108, 1);
 }
 .player:hover{
     transform: scale(1.05);
     transition: transform 1s;
 }
-h2:hover{color:rgba(45, 37, 160, 1) ;}
+h3:hover{color:rgba(45, 37, 160, 1) ;}
+
+/*----------------
+ All Highlight Copa America  
+ --------------------------*/
+
+ .highlights{
+     display: flex;
+     margin-left: 182px;
+     margin-right: 156px;
+ }
+ .highlights-inner{
+     width: 50%;
+     margin-left: 69px;
+     margin-bottom: 158px;
+ }
+ .highlights-inner img{
+    width: 567px;
+    height: 427px;
+ }
+ h2{
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 40px;
+ }
 
