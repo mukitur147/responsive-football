@@ -19,7 +19,7 @@ nav{
 .bar-names a{
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
-    
+    font-size: 22px;
     font-weight: 500;
     padding: 5px 20px;
 }
@@ -46,14 +46,16 @@ nav{
  .header-sec{
      display: flex;
      background-color:rgba(45, 37, 160, 1) ;
+   
  }
  .header-div{
      width: 50%;
      margin-top: 30px;
      margin-bottom: 86px;
+   
  }
  .header-div img{
-    width: 600px;
+    width: 650px;
     
     
  }
@@ -100,6 +102,8 @@ nav{
     grid-template-columns: repeat(3,0.1fr);
     grid-row-gap: 30px;
     grid-column-gap: 27px;
+    justify-content: center;
+    align-items: center;
     padding-top: 70px;
     padding-bottom: 165px;
     padding-right: 10px;
@@ -145,8 +149,10 @@ h4:hover{color:rgba(45, 37, 160, 1) ;}
 
  .highlights{
      display: flex;
-     margin-left: 182px;
-     margin-right: 156px;
+     justify-content: center;
+     align-items: center;
+     margin-left: 380px;
+     margin-right: 200px;
  }
  .highlights-inner{
      width: 50%;
@@ -191,6 +197,8 @@ Next Matches Style
 .next-matches{
     margin-bottom: 60px;
     box-shadow: 0 0 30px rgba(128, 128, 128, 0.096);
+    justify-content: center;
+    align-items: center;
 }
 h3{ margin-left: 20px;
     padding-left: 5px;
@@ -204,6 +212,9 @@ h3{ margin-left: 20px;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 40px;
     padding: 30px;
+    justify-content: center;
+    align-items: center;
+
 }
 .match{
     box-shadow: 5px 5px 30px grey;
@@ -232,16 +243,20 @@ align-items: center;}
  .top-clubs{
      margin-bottom: 120px;
      box-shadow: 0 0 30px rgba(128, 128, 128, 0.096);
- }
+ justify-content: center;
+align-items: center;}
 .clubs{display: grid;
        grid-template-columns: repeat(3,1fr);
        grid-column-gap: 160px;
        grid-row-gap: 30px;
        padding-left: 30px;
        padding-bottom: 30px;
+       justify-content: center;
+       align-items: center;
 }
 .club{display: flex;
     align-items: center;
+    
       
 }
  .club img{width: 90px;
